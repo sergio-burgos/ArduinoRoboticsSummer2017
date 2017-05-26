@@ -17,14 +17,14 @@ void loop() {
   sensorValue = analogRead(sensorPin);
   
   // if the sensorValue is greater or equal to 14
-  if (sensorValue >= 14) {
+  if (sensorValue >= 40) {
    // turn the ledPin on
    digitalWrite(ledPin, HIGH);
    // stop the program for <sensorValue> milliseconds:
    delay(sensorValue);
    
   // if the sensorValue is less or equal to 4
-  } else if (sensorValue <= 4) {
+  } else if (sensorValue <= 10) {
    // turn the ledPin off:
    digitalWrite(ledPin, LOW);
    // stop the program for <sensorValue> milliseconds:
