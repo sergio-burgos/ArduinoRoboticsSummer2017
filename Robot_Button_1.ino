@@ -1,4 +1,4 @@
-// declare variable pushButton and give it a value of "13"
+// declare variable pushButton and give it a value of "13" (for pin number 13)
 int pushButton = 13;
 
 // the setup function runs once when you press reset or power the board
