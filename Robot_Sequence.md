@@ -62,6 +62,8 @@ void loop() {
 
 **Video + Comments:**
 
+Link: https://youtu.be/w0SNFmvyfwg
 
+For this program I followed the LED blink example and used it to create a sequence where my robot would move forward , stop , move backwards, and then stop again. All of these directions I was giving to the motors where for half a second, so that I could have more control over the code I wrote and to avoid my robot from falling apart.
 
 
