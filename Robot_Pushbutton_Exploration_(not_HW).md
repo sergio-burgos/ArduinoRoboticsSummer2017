@@ -90,7 +90,7 @@ void loop() {
 ```
 **Videos + Comments:**
 
-Link: https://youtu.be/EIs3La_bZZ8
+Link: https://youtu.be/EIs3La_bZZ8  
 Link 2: https://youtu.be/MlgPWlYQ938
 
 I looked at different tutorials to understand the logic to make the robot perform the sequence when the button was pressed at least once, and then stop when it was pressed again. I took the code I had for the Robor_PushButton_2 file and added some of the code I saw on the YouTube tutorial and was able to successfully make it work. Although, I identified a delay that doesn't make the robot stop as soon as the button is pressed. What I have to do to make it stop is press the button and hold it down.  I'm not really sure why this happens, but it was fun getting it to do what I wanted it to do.
