@@ -70,9 +70,6 @@ void loop() {
 
 }
 ```
-**Video + Comments:
+**Video + Comments:**
 
 
-
-
-**Images:
