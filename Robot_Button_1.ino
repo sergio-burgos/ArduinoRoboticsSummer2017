@@ -27,7 +27,8 @@ void loop() {
   int buttonState = digitalRead(pushButton);
   // print out the state of the button:
   Serial.println(buttonState);
-  delay(1);        // delay in between reads for stability
+ // delay in between reads for stability
+  delay(1);        
 
   // create if condition for buttonState >= 1
   if (buttonState >= 1) {
