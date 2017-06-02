@@ -52,6 +52,7 @@ void loop() {
 ```
 **Photos:**
 
+![img_0217](https://cloud.githubusercontent.com/assets/28915361/26741081/e09982f0-478c-11e7-971b-6d1440aa28a0.JPG)
 
 **Video + Comments:**
 
