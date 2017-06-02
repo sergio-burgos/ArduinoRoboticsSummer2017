@@ -88,8 +88,11 @@ void loop() {
 
 }
 ```
-**Video + Comments:**
+**Videos + Comments:**
 
-Link: https://youtu.be/DmnxieBGe3o
+Link: https://youtu.be/EIs3La_bZZ8
+Link 2: https://youtu.be/MlgPWlYQ938
 
-For this program, I created an if condition that would verify the value of buttonState to see if it was >= 1. The reason why I'm checking if buttonState is 1 is because the values I get on the serial monitor are 0 (for when button is not pressed) and 1 (for when button is pressed). This way I can create a logical condition that would read the value 1 as an instruction to make the robot perform a sequence when the button is pressed, and then wait for the next time the button is pressed to perform the sequence again.
+I looked at different tutorials to understand the logic to make the robot perform the sequence when the button was pressed at least once, and then stop when it was pressed again. I took the code I had for the Robor_PushButton_2 file and added some of the code I saw on the YouTube tutorial and was able to successfully make it work. Although, I identified a delay that doesn't make the robot stop as soon as the button is pressed. What I have to do to make it stop is press the button and hold it down.  I'm not really sure why this happens, but it was fun getting it to do what I wanted it to do.
+
+The first video shows the robot on the floor and moving, but since it was hard to show in detail what happened when I pressed the button, I added a second one of me holding the robot and just showing its behavior.
