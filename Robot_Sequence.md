@@ -54,6 +54,12 @@ void loop() {
 
 ![img_0217](https://cloud.githubusercontent.com/assets/28915361/26741081/e09982f0-478c-11e7-971b-6d1440aa28a0.JPG)
 
+![img_0214](https://cloud.githubusercontent.com/assets/28915361/26741120/fb6daa84-478c-11e7-873b-912663487b1b.JPG)
+
+![img_0216](https://cloud.githubusercontent.com/assets/28915361/26741173/26fb62f4-478d-11e7-80f9-257d5aed809e.JPG)
+
+![img_0215](https://cloud.githubusercontent.com/assets/28915361/26741150/12bd110c-478d-11e7-8dbd-b3887842d19d.JPG)
+
 **Video + Comments:**
 
 
