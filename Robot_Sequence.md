@@ -1,5 +1,8 @@
-Robot Sequence
+## Robot Sequence
 
+**Code:**
+
+```
 // setup function runs once at the beginning
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
@@ -46,3 +49,12 @@ void loop() {
   delay(500);
 
 }
+```
+**Photos:**
+
+
+**Video + Comments:**
+
+
+
+
