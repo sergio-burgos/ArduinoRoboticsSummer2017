@@ -8,7 +8,7 @@ void setup() {
   pinMode (10, OUTPUT);
   pinMode (12, OUTPUT);
 
-  // power motors using analog write to control how much power I want to give them. In this case 130/255
+  // power motors using analog write to control how much power I want to give them. In this case 200/255
   analogWrite (6, 200);
   analogWrite (12, 200);
 }
