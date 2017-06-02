@@ -72,4 +72,7 @@ void loop() {
 ```
 **Video + Comments:**
 
+Link: https://youtu.be/DmnxieBGe3o
+
+For this program, I created an if condition that would verify the value of buttonState to see if it was >= 1. The reason why I'm checking if buttonState is 1 is because the values I get on the serial monitor are 0 (for when button is not pressed) and 1 (for when button is pressed). This way I can create a logical condition that would read the value 1 as an instruction to make the robot complete a sequence when the button is pressed. 
 
