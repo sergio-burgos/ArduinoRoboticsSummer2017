@@ -68,7 +68,6 @@ void loop() {
     digitalWrite (8, HIGH);
     digitalWrite (10, LOW);
     delay(1000);
-
   }
 
   // create if condition for robot to move stop and turn when distance is < 20 cm
@@ -102,6 +101,6 @@ void loop() {
 
 Link: https://youtu.be/Tm9K0TCI8S8
 
-I'm not sure if I created the right program. It does what was asked for the homework, but the logic might not be the right one. I modified the code I hade for the previous excercise and in addition to creating the if condition to make the robot perform the sequence after buttonState was "1" (or when the button was pressed), and added a while loop that would continue for as long as the condition that I define was true, which in this case would always be true since when button is released the value of the variable pushButton goes back to "0". 
+After building my robot, I realized it would've been impossible to have the distance measuring sensor facing the front without redesigning my lego robot. I decided to check out a small breadboard to add more legos to hold it and place the distance measuring sensor on that second one that could now be reading what was in front of my robot.
 
-*I added another exploration (file) where I get the robot to start/stop when I press the button.
+For the code, I combined the code I wrote for one of the previous excercises where I made my robot perform a sequence. Using the code we were given for the distance measuring sensor, I incorporated that into my code and made sure I could have both actions being performed when running the program (reading distance and printing it + making the robot run a sequence). After making sure this two worked, I created a condition using the value being read by the sensor and defining that if distance >= 20 cm, the robot could keep moving forward, and if distance < 20, the robot would stop the motors, turn right, and stop one more time before it started moving forward again.
