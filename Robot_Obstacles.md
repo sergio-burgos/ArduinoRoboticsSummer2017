@@ -207,10 +207,22 @@ void loop() {
   }
 }
 ```
+**Photos:**
+
+![img_0260](https://cloud.githubusercontent.com/assets/28915361/26799002/93e1d3dc-49e8-11e7-9675-a4729948a4bc.JPG)
+
+![img_0261](https://cloud.githubusercontent.com/assets/28915361/26799011/a100262c-49e8-11e7-88c0-3b8aa8b532cb.JPG)
+
+![img_0262](https://cloud.githubusercontent.com/assets/28915361/26799013/a110f9e8-49e8-11e7-9149-7d1fae3e8b14.JPG)
+
+![img_0263](https://cloud.githubusercontent.com/assets/28915361/26799012/a1096cd2-49e8-11e7-81ee-1a1decbafda9.JPG)
+
 
 **Video + Comments:**
 
-Link: https://youtu.be/Tm9K0TCI8S8
+Link: https://youtu.be/phjiAjb6BE8  
+
+Link 2: https://youtu.be/9t-70CrKMbw
 
 After building my robot, I realized it would've been impossible to have the distance measuring sensor facing the front without redesigning my lego robot. I decided to check out a small breadboard to add more legos to hold it and place the distance measuring sensor on that second one that could now be reading what was in front of my robot.
 
