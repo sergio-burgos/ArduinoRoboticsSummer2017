@@ -47,16 +47,18 @@ void loop() {
 
 **Photos:**
 
+![img_0295](https://user-images.githubusercontent.com/28915361/26897623-006e7334-4b7e-11e7-8efb-c9ff9edc738b.JPG)
 
+![img_0296](https://user-images.githubusercontent.com/28915361/26897624-007140aa-4b7e-11e7-9020-207be7988515.JPG)
+
+![img_0297](https://user-images.githubusercontent.com/28915361/26897626-0073198e-4b7e-11e7-9efe-6751ba2fc25d.JPG)
+
+![img_0299](https://user-images.githubusercontent.com/28915361/26897625-0071f1e4-4b7e-11e7-9b0d-5e64580db4f2.JPG)
+
+![img_0300](https://user-images.githubusercontent.com/28915361/26897627-0073df90-4b7e-11e7-83fd-71dacc8619b0.JPG)
 
 **Video + Comments:**
 
-Link: https://youtu.be/phjiAjb6BE8  
+Link: https://youtu.be/llop9hv73dE
 
-Link 2: https://youtu.be/9t-70CrKMbw
-
-After building my robot, I realized it would've been impossible to have the distance measuring sensor facing the front without redesigning my lego robot. I decided to check out a small breadboard to add more legos to hold it and place the distance measuring sensor on that second one that could now be reading what was in front of my robot.
-
-For the code, I combined the code I wrote for one of the previous excercises where I made my robot perform a sequence. Using the code we were given for the distance measuring sensor, I incorporated that into my code and made sure I could have both actions being performed when running the program (reading distance and printing it + making the robot run a sequence). After making sure this two worked, I created a condition using the value being read by the sensor and defining that if distance >= 20 cm, the robot could keep moving forward, and if distance < 20, the robot would stop the motors, turn right, and stop one more time before it started moving forward again.
-
-After testing it, I realized I needed to give the motor that was making the robot turn more power to make it do it successfuly. In te second code I added, instead of assignning the speed in setup, I do it inside the loop function. This way I was able to make the motor spin faster (and with more power) when making the robot turn.
+After adding thr servo motor and 2 LDRs, I first wanted to make sure I could read the values of both LDRs so I made the code print them in the serial monitor. After that, I added a simple condition for when the value for sensorValue1 was greater thatn  sensorValue2 (sensorValue1 > sensorValue2), making the robot turn left or right based on which LDR had the highest value.
