@@ -1,4 +1,4 @@
-## Servo + LDR 1
+## Servo + LDR 
 
 **Code:**
 
