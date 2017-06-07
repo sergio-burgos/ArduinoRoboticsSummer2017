@@ -71,3 +71,16 @@ For the code, I combined the code I wrote for one of the previous excercises whe
 After testing it, I realized I needed to give the motor that was making the robot turn more power to make it do it successfuly. In te second code I added, instead of assignning the speed in setup, I do it inside the loop function. This way I was able to make the motor spin faster (and with more power) when making the robot turn.
 
 Photos and videos added on the assignment file.
+
+**6/7 - Servo + LDR notes:**
+
+After adding the servo motor and 2 LDRs, I first wanted to make sure I could read the values of both LDRs so I made the code print them in the serial monitor. After that, I added a simple condition for when the value for sensorValue1 was greater thatn  sensorValue2 (sensorValue1 > sensorValue2), making the robot turn left or right based on which LDR had the highest value.
+
+Photos and video added on the assignment file.
+
+
+**6/7 - Servo + LDR (Advanced) notes:**
+
+For this challenge I created a new variable that would store the difference between sensorValue1 and sensorValue2, and then used "abs" [difference = abs(sensorValue1 - sensorValue2)] to make the result always positive value. In addition to the two sensor values bieng printed, I added a third one that would tell me the difference value. This way I could easily see if the conditions I created where working with the value being read or calculated in my code. Since I had a 3 option in the set of condition to make the robot look forward, I had to be more specific when writing them. I added to the condition another premise saying that the difference should also be greater than or equal to 15 (&& difference >= 15) for the robot to turn, and a last one for anything else (or whenever the difference was less than 15) for the robot to look forward.
+
+Video added on the assignment file.
