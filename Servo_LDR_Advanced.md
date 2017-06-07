@@ -63,7 +63,7 @@ void loop() {
 
 <img width="744" alt="screen shot 2017-06-07 at 12 46 03 pm" src="https://user-images.githubusercontent.com/28915361/26900342-b6c75efe-4b86-11e7-9e1d-38efef8a9fa6.png">
 
-Other photo are same as "Servo + LDR" file.
+Other photos are the same as "Servo + LDR" file.
 
 **Video + Comments:**
 
