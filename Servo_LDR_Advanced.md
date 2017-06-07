@@ -23,6 +23,8 @@ void loop() {
   sensorValue1 = analogRead(sensorPin1); // update sensorValue1
   sensorValue2 = analogRead(sensorPin2); // update sensorValue2
 
+  difference = abs(sensorValue1 - sensorValue2); // make the result always positive value
+
   // print "Sensor 1:(sensorValue1)"
   Serial.print("Sensor 1: ");
   Serial.print(sensorValue1);
@@ -31,16 +33,20 @@ void loop() {
   Serial.print(" Sensor 2: ");
   Serial.print(sensorValue2);
 
+  // print difference:(difference)"
+  Serial.print(" Difference: ");
+  Serial.print(difference);
+
   // print space to start new line on serial monitor
   Serial.println();
 
   // creating condition for when sensorValue1 > sensorValue2 AND the difference is less than 15 to turn left
-  if (sensorValue1 > sensorValue2 && difference < 15 && difference > -15) {
+  if (sensorValue1 > sensorValue2 && difference >= 15) {
     myservo.write(170);
     delay(1500);
 
     // creating condition for when sensorValue1 < sensorValue2 AND the difference is less than 15 to turn right
-  } else if (sensorValue1 < sensorValue2 && difference < 15 && difference > -15) {
+  } else if (sensorValue1 < sensorValue2 && difference >= 15) {
     myservo.write(0);
     delay(1500);
 
@@ -51,21 +57,14 @@ void loop() {
   }
 
 }
-
 ```
 
 **Photos:**
 
-
+Same as "Servo + LDR" file.
 
 **Video + Comments:**
 
-Link: https://youtu.be/phjiAjb6BE8  
+Link: https://youtu.be/7JnzSjViCUw  
 
-Link 2: https://youtu.be/9t-70CrKMbw
-
-After building my robot, I realized it would've been impossible to have the distance measuring sensor facing the front without redesigning my lego robot. I decided to check out a small breadboard to add more legos to hold it and place the distance measuring sensor on that second one that could now be reading what was in front of my robot.
-
-For the code, I combined the code I wrote for one of the previous excercises where I made my robot perform a sequence. Using the code we were given for the distance measuring sensor, I incorporated that into my code and made sure I could have both actions being performed when running the program (reading distance and printing it + making the robot run a sequence). After making sure this two worked, I created a condition using the value being read by the sensor and defining that if distance >= 20 cm, the robot could keep moving forward, and if distance < 20, the robot would stop the motors, turn right, and stop one more time before it started moving forward again.
-
-After testing it, I realized I needed to give the motor that was making the robot turn more power to make it do it successfuly. In te second code I added, instead of assignning the speed in setup, I do it inside the loop function. This way I was able to make the motor spin faster (and with more power) when making the robot turn.
+For this challenge I created a new variable that would store the difference between sensorValue1 and sensorValue2, and then used "abs" [difference = abs(sensorValue1 - sensorValue2)] to make the result always positive value. In addition to the two sensor values bieng printed, I added a third one that would tell me the difference value. This way I could easily see if the conditions I created where working with the value being read or calculated in my code. Since I had a 3 option in the set of condition to make the robot look forward, I had to be more specific when writing them. I added to the condition another premise saying that the difference should also be greater than or equal to 15 (&& difference >= 15) for the robot to turn, and a last one for anything else (or whenever the difference was less than 15) for the robot to look forward.
