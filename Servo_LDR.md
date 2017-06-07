@@ -61,4 +61,4 @@ void loop() {
 
 Link: https://youtu.be/llop9hv73dE
 
-After adding thr servo motor and 2 LDRs, I first wanted to make sure I could read the values of both LDRs so I made the code print them in the serial monitor. After that, I added a simple condition for when the value for sensorValue1 was greater thatn  sensorValue2 (sensorValue1 > sensorValue2), making the robot turn left or right based on which LDR had the highest value.
+After adding the servo motor and 2 LDRs, I first wanted to make sure I could read the values of both LDRs so I made the code print them in the serial monitor. After that, I added a simple condition for when the value for sensorValue1 was greater thatn  sensorValue2 (sensorValue1 > sensorValue2), making the robot turn left or right based on which LDR had the highest value.
