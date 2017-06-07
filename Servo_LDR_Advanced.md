@@ -25,20 +25,7 @@ void loop() {
 
   difference = abs(sensorValue1 - sensorValue2); // make the result always positive value
 
-  // print "Sensor 1:(sensorValue1)"
-  Serial.print("Sensor 1: ");
-  Serial.print(sensorValue1);
-
-  // print "Sensor 2:(sensorValue2)"
-  Serial.print(" Sensor 2: ");
-  Serial.print(sensorValue2);
-
-  // print difference:(difference)"
-  Serial.print(" Difference: ");
-  Serial.print(difference);
-
-  // print space to start new line on serial monitor
-  Serial.println();
+  printSensorValues();
 
   // creating condition for when sensorValue1 > sensorValue2 AND the difference is less than 15 to turn left
   if (sensorValue1 > sensorValue2 && difference >= 15) {
@@ -55,6 +42,25 @@ void loop() {
     myservo.write(80);
     delay(1500);
   }
+
+}
+
+void printSensorValues() {
+
+  // print "Sensor 1:(sensorValue1)"
+  Serial.print("Sensor 1: ");
+  Serial.print(sensorValue1);
+
+  // print "Sensor 2:(sensorValue2)"
+  Serial.print(" Sensor 2: ");
+  Serial.print(sensorValue2);
+
+  // print difference:(difference)"
+  Serial.print(" Difference: ");
+  Serial.print(difference);
+
+  // print space to start new line on serial monitor
+  Serial.println();
 
 }
 ```
