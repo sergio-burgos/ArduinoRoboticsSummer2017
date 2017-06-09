@@ -6,6 +6,6 @@ After thinking of different ideas, I remembered a robot I saw last year at AT&T 
 
 I think the logic behind programming with servo motors can be interesting, because it requires coordination and precision. This project would also require finding, printing or creating parts that I could assemble to create a spider-looking structure. I would ideally look for a strong material so I could keep this robot after the class is done. And, if I succeed in this first part of making this robot perform a sequence that really looks like a spider, I would like to either add a distance measuring sensor or create a remote control to turn this into a toy I can play with anytime.
 
-**Sketches:**
+**Sketch:**
 
 ![img_0322](https://user-images.githubusercontent.com/28915361/26990121-6dcf74c2-4d0a-11e7-8b98-25619f43544a.JPG)
