@@ -37,4 +37,4 @@ int lightReading() {
 
 **Comments:**
 
-For this excercise, I created a program that would use 3 LDR to read the light value of a room, and return an average of the three resdings. 
+For this excercise, I created a program that would use 3 LDR to read the light value of a room, and return an average of the three readings. For this, I created variables to store the LDR values for each one of them, and another variable to store the average when calculated. Inside the loop function, I called the function I created (lightReading) where these 3 values are read and the average is calculated, followed by a serial print of the value the function returned.
