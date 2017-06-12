@@ -36,13 +36,12 @@ At first I couldn't get 2 servo motors to move at the same time, so I thought it
 
 Servo myservoa;  // create servo object to control a servo
 Servo myservob;  // create servo object to control a servo
-// twelve servo objects can be created on most boards
 
 int pos = 0;    // variable to store the servo position
 
 void setup() {
-  myservoa.attach(3);  // attaches the servo on pin 2 to the servo object
-  myservob.attach(4);  // attaches the servo on pin 2 to the servo object
+  myservoa.attach(3);  // attaches the servo on pin 3 to the servo object
+  myservob.attach(4);  // attaches the servo on pin 4 to the servo object
 }
 
 void loop() {
