@@ -29,6 +29,16 @@ At first I couldn't get 2 servo motors to move at the same time, so I thought it
 11. Attach battery holder + Battteries to power arduino and servos without cable.
 12. Try to control robot with a remote control.
 
+**Photos:**
+
+<img width="1680" alt="screen shot 2017-06-12 at 12 04 48 pm" src="https://user-images.githubusercontent.com/28915361/27050457-70637c9c-4f67-11e7-899f-704bf18f3a90.png">
+
+<img width="1680" alt="screen shot 2017-06-12 at 12 05 08 pm" src="https://user-images.githubusercontent.com/28915361/27050456-704b11e8-4f67-11e7-9644-5218273a8ec7.png">
+
+**Video:**
+
+Link : https://youtu.be/dr_Y2hTiPtc
+
 **Code:**
 
 ```
@@ -60,6 +70,4 @@ void loop() {
 
 ```
 
-**Video:**
 
-Link : https://youtu.be/dr_Y2hTiPtc
