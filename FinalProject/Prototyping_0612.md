@@ -2,7 +2,7 @@
 
 While looking for different models to get inspired by, I found one that had a robot working with only 8 servo motors. This was great because last class Sabine and I were talking about the number of servos we needed and how that was going to be a challenge, so I decided to go with this design. I also bought a pack of 10 servo motors and started thinking about how I would need them to move when the robot is built.
 
-At first I couldn't get 2 servo motors to move at the same time, so I thought it was gi oing to be challenging to create a sequence that would make them move and at different times. But after looking at servo tutorials I found one example by BARRAGAN <http://barraganstudio.com that I modified to test my motors, and it worked! I
+At first I couldn't get 2 servo motors to move at the same time, so I thought it was gi oing to be challenging to create a sequence that would make them move and at different times. But after looking at servo tutorials I found one example by BARRAGAN <http://barraganstudio.com that I modified to test my motors, and it worked!
 
 **Code:**
 
@@ -35,5 +35,3 @@ void loop() {
 }
 
 ```
-
-Refine your final project proposal. Research and/or do some prototyping. The goal is to answer some questions quickly about how complicated your project is, and whether it is feasible. Research parts, make a tentative parts list, make a list of steps you will have to take. These are suggested steps - take whatever steps seem appropriate to your project. Ask me for help if you need it.
