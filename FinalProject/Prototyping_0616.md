@@ -4,6 +4,8 @@ After removing all of the paint from tha parts I had ready from last class, I st
 
 Some photos can be found below and this is a video showing how the leg worked: https://youtu.be/kkIDmBfzg1M
 
+Another really helpful thing was finding this article (http://makezine.com/2016/11/22/robot-quadruped-arduino-program/) explaining the logic behind programming a quadruped robot with arduino. This includes some theory about Passive vs. Active Stability, the Creep Gait, etc. that were VERY helpful. I definitely recommend reading it if you're working on a similar project.
+
 **Code:**
 
 ```
