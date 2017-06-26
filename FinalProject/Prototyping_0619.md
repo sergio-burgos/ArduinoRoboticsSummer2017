@@ -145,10 +145,11 @@ void dance() {
 
 **Images:**
 
-![img_0655](https://user-images.githubusercontent.com/28915361/27551793-aea8cadc-5a59-11e7-915a-41a5f4bda2af.JPG)
+<img width="643" alt="screen shot 2017-06-26 at 10 32 19 am" src="https://user-images.githubusercontent.com/28915361/27552061-c400f070-5a5a-11e7-8588-8c698c09c883.png">
 > Image from structure built during the weekend.
 
 <img width="593" alt="screen shot 2017-06-26 at 10 28 18 am" src="https://user-images.githubusercontent.com/28915361/27551946-4c8a2eda-5a5a-11e7-84ca-33f943293db5.png">
 <img width="591" alt="screen shot 2017-06-26 at 10 28 30 am" src="https://user-images.githubusercontent.com/28915361/27551948-4c8d7c20-5a5a-11e7-85d7-bf4b37e32f8b.png">
 <img width="592" alt="screen shot 2017-06-26 at 10 28 46 am" src="https://user-images.githubusercontent.com/28915361/27551947-4c8c11dc-5a5a-11e7-8936-155811e8dcec.png">
+
 > Images from robot tested during class.
