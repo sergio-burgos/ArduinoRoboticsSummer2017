@@ -22,4 +22,4 @@ Here is a video of how I started thinking of ways to make this robot move: https
 ![img_0792](https://user-images.githubusercontent.com/28915361/27553865-77856da0-5a61-11e7-90c3-e4c4a52ddb01.JPG)
 ![img_0793](https://user-images.githubusercontent.com/28915361/27553867-7c65ee4e-5a61-11e7-8583-466488f771cc.JPG)
 
-> The spider robot almost done!
+> The spider robot is almost done (kind of)!
