@@ -146,6 +146,7 @@ void dance() {
 **Images:**
 
 <img width="643" alt="screen shot 2017-06-26 at 10 32 19 am" src="https://user-images.githubusercontent.com/28915361/27552061-c400f070-5a5a-11e7-8588-8c698c09c883.png">
+
 > Image from structure built during the weekend.
 
 <img width="593" alt="screen shot 2017-06-26 at 10 28 18 am" src="https://user-images.githubusercontent.com/28915361/27551946-4c8a2eda-5a5a-11e7-84ca-33f943293db5.png">
