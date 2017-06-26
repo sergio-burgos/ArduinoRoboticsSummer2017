@@ -8,14 +8,12 @@ Luis helped me use the soldering machines at school during class and finally got
 **Photos:**
 
 ![img_0799](https://user-images.githubusercontent.com/28915361/27552636-fb3b4dae-5a5c-11e7-8796-521da732e20f.JPG)
-> (Image taken from the article mentioned above.)
+> Adafruit Servo Shield (https://www.adafruit.com/product/1411)
 
 ![img_0661](https://user-images.githubusercontent.com/28915361/27552581-c8f8db2c-5a5c-11e7-9b84-4218c5dd0d17.JPG)
-> (Image taken from the article mentioned above.)
-
 ![img_0664](https://user-images.githubusercontent.com/28915361/27552592-d455f4dc-5a5c-11e7-8da7-b1962bcfa3b5.JPG)
-> (Image taken from the article mentioned above.)
+> My first attempt to solder on a shield.
 
 ![img_0665](https://user-images.githubusercontent.com/28915361/27552589-d2c5f7d4-5a5c-11e7-9494-be45cfdcc045.JPG)
-> (Image taken from the article mentioned above.)
+> After learning from Michael, I started feeling more comfortable doing it. Yay!
 
