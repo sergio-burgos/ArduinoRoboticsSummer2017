@@ -150,7 +150,13 @@ void dance() {
 > Image from structure built during the weekend.
 
 <img width="593" alt="screen shot 2017-06-26 at 10 28 18 am" src="https://user-images.githubusercontent.com/28915361/27552129-fc722816-5a5a-11e7-83f5-1b8d52b03ff4.png">
+
+> Image from robot tested during class 1.
+
 <img width="591" alt="screen shot 2017-06-26 at 10 28 30 am" src="https://user-images.githubusercontent.com/28915361/27551948-4c8d7c20-5a5a-11e7-85d7-bf4b37e32f8b.png">
+
+> Image from robot tested during class 2.
+
 <img width="592" alt="screen shot 2017-06-26 at 10 28 46 am" src="https://user-images.githubusercontent.com/28915361/27551947-4c8c11dc-5a5a-11e7-8936-155811e8dcec.png">
 
-> Images from robot tested during class.
+> Image from robot tested during class 3.
