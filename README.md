@@ -84,3 +84,63 @@ Photos and video added on the assignment file.
 For this challenge I created a new variable that would store the difference between sensorValue1 and sensorValue2, and then used "abs" [difference = abs(sensorValue1 - sensorValue2)] to make the result always positive value. In addition to the two sensor values bieng printed, I added a third one that would tell me the difference value. This way I could easily see if the conditions I created where working with the value being read or calculated in my code. Since I had a 3 option in the set of condition to make the robot look forward, I had to be more specific when writing them. I added to the condition another premise saying that the difference should also be greater than or equal to 15 (&& difference >= 15) for the robot to turn, and a last one for anything else (or whenever the difference was less than 15) for the robot to look forward.
 
 Video added on the assignment file.
+
+
+**6/9 - Project Proposal notes:**
+
+After thinking of different ideas, I remembered a robot I saw last year at AT&T Shape Expo that made me feel like I could never do anything like that. It was a spider-looking robot with many motors that created limbs or legs, and it looked amazing when it started walking. After googling for "Spider Robot," I found many variations of that idea and realized that most people were using servo motors. Since the last time I did a project with arduino I only worked with DC motors, I wanted to challenge myself to work on a project that would help understand a little more about how servo motors work and what I can do with them.
+
+I think the logic behind programming with servo motors can be interesting, because it requires coordination and precision. This project would also require finding, printing or creating parts that I could assemble to create a spider-looking structure. I would ideally look for a strong material so I could keep this robot after the class is done. And, if I succeed in this first part of making this robot perform a sequence that really looks like a spider, I would like to either add a distance measuring sensor or create a remote control to turn this into a toy I can play with anytime.
+
+
+**6/12 - Spider Robot Prototyping:**
+
+While looking for different models to get inspired by, I found one that had a robot working with only 8 servo motors. This was great because last class Sabine and I were talking about the number of servos we needed and how that was going to be a challenge, so I decided to go with this design. I also bought a pack of 10 servo motors and started thinking about how I would need them to move when the robot is built.
+
+At first I couldn't get 2 servo motors to move at the same time, so I thought it was gi oing to be challenging to create a sequence that would make them move and at different times. But after looking at servo tutorials I found one example by BARRAGAN (http://barraganstudio.com) that I modified to test my motors, and it worked!
+
+
+**6/14 - Spider Robot Prototyping:**
+
+I decided to simplify the design I wanted and only have 4 legs for the spider robot. This would allow me to use les servo motors, as well as simplify the process of making the robot move. A friend of mine shared with me a file with the design ready to be laser cutted, so I used it on the CCA laser cut machines. The file is here in case others want to download it (Robot_Quadruped2v2.dxf.zip)
+
+After I got all the pieces ready, I decided to spray paint them to give them a different look. After using the spray paint room upstairs, I realized a made the mistake of not removing a protective layer that the material I used to laser cut the parts had, and I could just peel off the paint. This was frustrating because painting the parts took longer than I expected (because of waiting for it to dry so you can use them later and I still got marks and imperfections), and it was all in vain. Leason learned.
+
+
+**6/16 - Spider Robot Prototyping:**
+
+After removing all of the paint from tha parts I had ready from last class, I started building the legs of the robot and attaching the servo motors to test with code how they would move. While doing this I realized I was missing the right nuts and bolts, so I had to improvise with the ones I found on the hybrid lab and even using wire to attach the servo motor "horns." After this I ordered nuts, bolts and nylon Hex lock nuts.
+
+Some photos can be found below and this is a video showing how the leg worked: https://youtu.be/kkIDmBfzg1M
+
+Another really helpful thing was finding this article (http://makezine.com/2016/11/22/robot-quadruped-arduino-program/) explaining the logic behind programming a quadruped robot with arduino. This includes some theory about Passive vs. Active Stability, the Creep Gait, etc. that were VERY helpful. I definitely recommend reading it if you're working on a similar project. They even have diagrams and videos that help you understand what you'll need to consider for your project.
+
+
+**6/19 - Spider Robot Prototyping:**
+
+During the weekend I worked on finishing building the robot and making sure the structure worked. I got it done by Sunday night, so I wanted to work during class on Monday on making sure the robot moved using a breadboard to make all the circuit I needed to power and control the servo motors. To build this structure I used nuts, bolts, and nylon hex lock nuts I bought on amazon, but then realized they were not the best for this project. I then went to Harrison & Boninni to get the 4-40 nuts, bolts, and nylon hex lock nuts that fit perfectly.
+
+During class I created sample code that would test the robot's ability to make different coordinated movements, as well as help me start understanding more what degrees I need to consider for specific movements and the time (or delay) I had to assign after each function created for a robot's action.
+
+Here's a video showing how the robot worked: https://youtu.be/MoS8wETw3yw
+
+
+**6/21 - Spider Robot Prototyping:**
+
+I finally got the servo shield I ordered from Adafruit and started soldering to get rid of the breadboard I was using before. I have to say doing this was very exciting because it was the first time I worked creating a shield and doing a project with arduino without using a breadboard. I guess it just made it feel for like a real project than just an assignment.
+
+Luis helped me use the soldering machines at school during class and finally got to create the shield I was going to use for my spider robot. Michael also helped me learn how to achieve a more clean and precise soldering work. After being done with the shield, I connected it to my robot to make sure this was working, and I coudln't get it to work. After that class, Sabine shared with me that I was probably missing the shield library, and it turned out I was.
+
+
+**6/23 - Spider Robot Prototyping:**
+
+After adding the shield library I was able to look at some of the examples programs they had in the tutorial and test the robot with the new code. The tutorial I followed was found on the "learn" section of the Adafruit website ( https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library) and uses content from this Github repository (https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library). Instead of the conventional servo library, this shield was using "Wire.h" and "Adafruit_PWMServoDriver.h" libraries. This library also required that I converted from degrees to pulse lengths in order to understand the logic behind the rotations of the servo motors which would eventually make the robot move the way I want it to. Instead of having an angle between 0-180 degrees, I had a range between 150-600 pulse length.
+
+At this point, I replaced some of the nuts and bolt I had because they kep falling off. I also thought it would be a good idea to use a hot glue gun to make sure some of the nuts I added were not moving in ways I didn't want them to, specially now that I was working on creating code to make the robot move forward. After doing this, I also glued the battery holder on the bottom of the robot.
+
+Here is a video of how I started thinking of ways to make this robot move: https://youtu.be/JItx2b7Y19U.
+
+
+**6/26 - Spider Robot Final Presentation:**
+
+Looks at FinalProject Folder > FinalPresentation_0626.md
