@@ -143,4 +143,4 @@ Here is a video of how I started thinking of ways to make this robot move: https
 
 **6/26 - Spider Robot Final Presentation:**
 
-Looks at FinalProject Folder > FinalPresentation_0626.md
+Look at FinalProject Folder > FinalPresentation_0626.md
