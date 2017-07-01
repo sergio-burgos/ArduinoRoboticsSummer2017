@@ -4,12 +4,22 @@ Today we finally present our robots. During the weekend, I was able to make my r
 
 Overall, I'm very happy with the outcome, and you can see more of my proccess, programs I wrote, and images below. My plan is to keep playind with it and practice how to succesfuly make the spider robot move using all of the servos and timing the movement (or rotations) of all of them.  
 
+**Brief Conceptual Description:**
+
+The spider robot I created is a quadruped robot that user servos to control the legs that allow this "spider" to move and imitate real spider movements. The idea is to create a robot that can use the rotations of servo motors to replicate this movements.
+
+**Detailed Technical Description:**
+
+This robot uses 8 servo motors that are connected to an Adafruit Servo Motor shield. With the use of the shield, the 8 servo motors used can be easily connected to Pins 4-11 and allow for the circuit built for the robot to be more durable and reliable. To power the servo motors, the battery used to power the Arduino board wasnt enough, so I used 4 AA batteries to make sure I had enough power to make the spider robot move. Finally, by converting angles between 0-180 degrees to pulse lengths with a range between 150-600, wich allowed me to apply the same theory we leared for servos but using a different library that was unique to the shield. 
+
 **Circuit Image + Schematics:**
 
 ![untitled sketch_bb](https://user-images.githubusercontent.com/28915361/27760401-691ed39e-5dfb-11e7-9e4b-025440571875.jpg)
 
+![untitled sketch 2_schem](https://user-images.githubusercontent.com/28915361/27760584-6f9aa84c-5e00-11e7-9738-2c89b90d7a85.jpg)
 
-**Process/Flow:**
+
+**Process/Planning hardware + software:**
 
 ![img_0868 copy](https://user-images.githubusercontent.com/28915361/27760384-3d7dc5ce-5dfb-11e7-855e-a13ed273fc3a.jpg)
 
